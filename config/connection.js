@@ -4,10 +4,10 @@ var mysql = require('mysql');
 // Create the MySQL connection object
 var connection = mysql.createConnection({
 		port: 3306,
-		host: 'localhost',
-		user: 'root',
-		password: 'root',
-		database: 'burgers_db'
+		host: 'us-cdbr-iron-east-05.cleardb.net',
+		user: 'b012c44ccb24fc',
+		password: '499421a8',
+		database: 'heroku_ba8ba00b4e65311'
 });
 
 
